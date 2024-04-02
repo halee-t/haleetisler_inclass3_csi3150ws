@@ -14,7 +14,7 @@ function Counter() {
 
   return (
     <section className="counter-box">
-      <span className="counter-output">{count}</span>
+      <div className="counter-output">{count}</div>
       <section className="buttons">
         <button onClick={decrease} className="decrease">
           -
